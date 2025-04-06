@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: "Roboto", sans-serif;  
+}
+
+.container-options {
+    width: 100vw;
+    height: 50px;
+    color: #FFFFFF;
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.container-options header option:hover {
+    color: #FF0000;
+}
+
+.container-options header option:active {
+    color: #FF0000;
+    opacity: 0.1;
+    transition: 0.2s;
+}
+
+.container-options header {
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container-options header img {
+    width: 80px;
+    height: 70px;
+}
+
+/*configurações do container-options☝️ */
+
+.container-text-image {
+    width: 100vw;
+    height: 400px;
+    margin-top: 20%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*configurações das imagens👇 */
+
+.the-super-mario {
+    width: 400px;
+    height: 300px;
+}
+
+/*configurações dos textos e botão 👇*/
+
+.texts {
+    padding: 30px;
+    letter-spacing: -1px;
+    font-size: 20px;
+    text-align: justify;
+    width: 800px;
+    color: #FFFFFF;
+}
+
+.texts h2 {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.texts p {
+    margin-bottom: 20px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0000ff;
+    opacity: 0.8;
+}
+
+button:active {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    opacity: 0.2s;
+}
+
+.mario-e-luigi {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.mascara {
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 5px 5px #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
